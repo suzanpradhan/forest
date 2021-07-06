@@ -1,0 +1,409 @@
+@font-face {
+  font-family: "GilroyLight";
+  src: url(../fonts/GILROY-LIGHT.OTF);
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url(../fonts/GILROY-EXTRABOLD.OTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* > body .section-description-content .title-tag {
+  font-size: 16px;
+  font-family: "GilroyBold";
+  color: #45BF55;
+}
+
+* > body .section-description-content .title {
+  font-family: "GilroyBold";
+  font-size: 24px;
+  color: #0d0d0d;
+}
+
+* > body .section-description-content .description {
+  font-family: "GilroyLight";
+  font-size: 16px;
+  color: #707070;
+}
+
+* > body > .scaffold .header-section {
+  height: 100vh;
+  position: relative;
+}
+
+* > body > .scaffold .header-section > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+* > body > .scaffold .header-section > .container {
+  width: 100%;
+  height: 100%;
+}
+
+* > body > .scaffold .header-section > .container > .navbar {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 32px;
+  width: 100%;
+}
+
+* > body > .scaffold .header-section > .container > .navbar > .left-nav-content > .logo h1 {
+  font-size: 24px;
+  font-family: "GilroyBold";
+  color: white;
+}
+
+* > body > .scaffold .header-section > .container > .navbar > .right-nav-content > .navigations li {
+  padding: 0px 12px;
+  display: inline-block;
+  font-family: "GilroyLight";
+  cursor: pointer;
+  color: #e1e1e1;
+}
+
+* > body > .scaffold .header-section > .container > .navbar > .right-nav-content > .navigations li:hover {
+  color: white;
+  font-weight: 600;
+}
+
+* > body > .scaffold .header-section > .container > .navbar > .right-nav-content > .navigations li.active {
+  color: white;
+  font-weight: 600;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > h4 {
+  padding: 8px 0px;
+  font-family: "GilroyLight";
+  font-size: 20px;
+  color: white;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > h1 {
+  font-family: "GilroyBold";
+  font-size: 36px;
+  color: white;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > p {
+  font-family: "GilroyLight";
+  font-family: 16px;
+  width: 50%;
+  padding: 8px 0px;
+  text-align: center;
+  color: #e1e1e1;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > .header-actions {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > .header-actions > .header-action {
+  font-family: "GilroyLight";
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #45BF55;
+  margin: 0px 10px;
+  color: #0d0d0d;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > .header-actions > .header-action:first-child {
+  background-color: white;
+  color: #45BF55;
+  border: 2px solid #45BF55;
+}
+
+* > body > .scaffold .header-section > .container > .header-contents > .header-actions > .header-action:hover {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+* > body > .scaffold > .about-us-section {
+  width: 100%;
+}
+
+* > body > .scaffold > .about-us-section > .container {
+  margin: 50px 24px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* > body > .scaffold > .about-us-section > .container > .what-we-do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* > body > .scaffold > .about-us-section > .container > .what-we-do > .description {
+  margin-top: 14px;
+  max-width: 500px;
+  text-align: center;
+}
+
+* > body > .scaffold > .about-us-section > .container > .what-we-do > .title {
+  margin-top: 5px;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us {
+  margin-top: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 500px;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .left-content > img {
+  max-width: 300px;
+  min-height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content {
+  margin-left: 50px;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content > .title {
+  margin-top: 5px;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content > .description {
+  margin-top: 14px;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content > .progress-section {
+  margin-top: 24px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content > .progress-section > .progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* > body > .scaffold > .about-us-section > .container > .about-us > .right-content > .progress-section > .progress > p {
+  font-family: "GilroyLight";
+  color: #0d0d0d;
+}
+
+* > body > .scaffold > .our-services-section {
+  width: 100%;
+  position: relative;
+}
+
+* > body > .scaffold > .our-services-section > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+* > body > .scaffold > .our-services-section > .container {
+  padding: 50px 24px;
+}
+
+* > body > .scaffold > .our-services-section > .container > .section-description-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* > body > .scaffold > .our-services-section > .container > .section-description-content > .description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: end;
+  color: #e1e1e1;
+}
+
+* > body > .scaffold > .our-services-section > .container > .section-description-content > .group-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* > body > .scaffold > .our-services-section > .container > .section-description-content > .group-right > .title {
+  color: white;
+  font-size: 32px;
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards > .service-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 14px;
+  max-width: 320px;
+  cursor: pointer;
+  margin: 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-transition: all 350ms;
+  transition: all 350ms;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards > .service-card > i {
+  color: white;
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards > .service-card > .title {
+  font-family: "GilroyBold";
+  font-size: 18px;
+  color: #45BF55;
+  margin-top: 8px;
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards > .service-card > .description {
+  font-family: "GilroyLight";
+  font-size: 14px;
+  margin-top: 14px;
+  color: #e1e1e1;
+  text-align: center;
+}
+
+* > body > .scaffold > .our-services-section > .container > .services-cards > .service-card:hover {
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+}
+/*# sourceMappingURL=main.css.map */
